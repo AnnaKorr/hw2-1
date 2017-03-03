@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AwesomeMenu/AwesomeMenu.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
