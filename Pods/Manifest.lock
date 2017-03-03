@@ -1,0 +1,12 @@
+PODS:
+  - AwesomeMenu (1.0.0)
+
+DEPENDENCIES:
+  - AwesomeMenu (~> 1.0)
+
+SPEC CHECKSUMS:
+  AwesomeMenu: 34bad7f873e4b3cfaa6651fabbb96607d0e8f2b3
+
+PODFILE CHECKSUM: 622d29dfd8318757eb1e1d11b5c79fabb0099ab5
+
+COCOAPODS: 1.2.0
