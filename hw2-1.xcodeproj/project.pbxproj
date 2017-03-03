@@ -13,6 +13,7 @@
 		18FB016C1E698AFB009D633C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FB016A1E698AFB009D633C /* Main.storyboard */; };
 		18FB016E1E698AFB009D633C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FB016D1E698AFB009D633C /* Assets.xcassets */; };
 		18FB01711E698AFB009D633C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FB016F1E698AFB009D633C /* LaunchScreen.storyboard */; };
+		18FB01791E698B39009D633C /* planet-800x600_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FB01781E698B38009D633C /* planet-800x600_1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18FB016D1E698AFB009D633C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FB01701E698AFB009D633C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FB01721E698AFB009D633C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FB01781E698B38009D633C /* planet-800x600_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planet-800x600_1x.png"; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/planet-800x600_1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		18FB01551E698AFA009D633C = {
 			isa = PBXGroup;
 			children = (
+				18FB01781E698B38009D633C /* planet-800x600_1x.png */,
 				18FB01601E698AFB009D633C /* hw2-1 */,
 				18FB015F1E698AFB009D633C /* Products */,
 			);
@@ -140,6 +143,7 @@
 				18FB01711E698AFB009D633C /* LaunchScreen.storyboard in Resources */,
 				18FB016E1E698AFB009D633C /* Assets.xcassets in Resources */,
 				18FB016C1E698AFB009D633C /* Main.storyboard in Resources */,
+				18FB01791E698B39009D633C /* planet-800x600_1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -273,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "hw2-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-78.hw2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "hw2-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-78.hw2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
